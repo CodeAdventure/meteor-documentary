@@ -1,7 +1,8 @@
 # JSDoc Template for Meteor packages
 
-Uses [Docstrap](https://github.com/terryweiss/docstrap) template for JSDoc 3
-to generate beautiful documentation for your packages or application code.
+Uses [Docstrap](https://github.com/terryweiss/docstrap) template for
+[JSDoc 3](http://usejsdoc.org/) to generate documentation for your packages
+or application code.
 
 ## Install with Meteorite
 Install with: `mrt add jsdoc-template`
@@ -13,8 +14,8 @@ for your JSDoc setup, so you don't have to copy those files around
 for every package.
 
 ## Configuration
-You have to use JSDoc 3 and tell it to use the template provided by
-this package.
+You have to use [JSDoc 3](http://usejsdoc.org/) and tell it to use the
+template provided by this package.
 
 ### Install grunt packages
 Create `package.json` within your package folder like this:
@@ -86,7 +87,8 @@ in your package.
 The jsdoc configuration file provides several options to customize 
 the output of the template including footers, copy right sections etc.
 
-For more information on docstrap theme configuration see [Docstrap documentation](https://github.com/terryweiss/docstrap)
+For more information on docstrap theme configuration see
+[Docstrap documentation](https://github.com/terryweiss/docstrap)
 
 
 ## Release History
