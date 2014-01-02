@@ -1,0 +1,8 @@
+{
+  "name": "jsdoc-template",
+  "description": "Beautiful JSDoc template for your Meteor packages.",
+  "homepage": "https://github.com/CodeAdventure/meteor-jsdoc-template",
+  "author": "Code Adventure",
+  "version": "0.1.0",
+  "git": "https://github.com/CodeAdventure/meteor-jsdoc-template.git"
+}

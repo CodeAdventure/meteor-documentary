@@ -1,0 +1,25 @@
+{
+  "tags"      : {
+    "allowUnknownTags" : true
+  },
+  "plugins"   : ["plugins/markdown", "../jsdoc-template/source/plugins/class_tag"],
+  "templates" : {
+    "cleverLinks"     : true,
+    "monospaceLinks"  : true,
+    "default"         : {
+      "outputSourceFiles" : true
+    },
+    "systemName"      : "Your Package Name",
+    "footer"          : "Optional footer content",
+    "copyright"       : "copyright information for your package",
+    "navType"         : "vertical",
+    "theme"           : "spacelab",
+    "linenums"        : true,
+    "collapseSymbols" : false,
+    "inverseNav"      : false
+  },
+  "markdown"  : {
+    "parser"   : "gfm",
+    "hardwrap" : true
+  }
+}
