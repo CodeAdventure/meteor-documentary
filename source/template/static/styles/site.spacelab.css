@@ -669,6 +669,11 @@ h3 small {
 h4 small {
   font-size: 15px;
 }
+
+.examples h4 {
+  color: #666;
+}
+
 .page-header {
   padding-bottom: 9.5px;
   margin: 21px 0 31.5px;
@@ -5641,7 +5646,7 @@ div.subnav-fixed {
 .hero-unit {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-#main {
+#main, .examples {
   margin-top: 56px;
 }
 .navbar-fixed-top .navbar-inner {
@@ -5790,5 +5795,5 @@ code {
   border-width: 0 1px 0 0;
   font-size: 12px;
   line-height: 15px;
-  padding: 12px 4px !important;
+  padding: 10px 4px !important;
 }

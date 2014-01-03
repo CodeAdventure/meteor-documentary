@@ -627,7 +627,8 @@ exports.publish = function ( taffyData, opts, tutorials ) {
 			header   : tutorial.title,
 			content  : tutorial.parse(),
 			children : tutorial.children,
-			docs     : null
+			docs     : null,
+      docType : 'tutorial'
 		};
 
 		var tutorialPath = path.join( outdir, filename ),
