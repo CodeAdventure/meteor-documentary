@@ -1,6 +1,8 @@
-# JSDoc Template for Meteor packages
+# Documentary
 
-Uses [Docstrap](https://github.com/terryweiss/docstrap) template for
+**Beautiful code documentation for your Meteor projects.**
+
+Uses an improved [Docstrap](https://github.com/terryweiss/docstrap) template for
 [JSDoc 3](http://usejsdoc.org/) to generate documentation for your packages
 or application code.
 
@@ -52,11 +54,12 @@ module.exports = function (grunt) {
 
     jsdoc : {
       dist : {
-        src: ['source/**/*.js'],
+        src: ['source/**/*.js', 'documentation/index.md'],
         options: {
           destination: 'documentation/output',
           template: '../jsdoc-template/source/template',
-          configure: 'documentation/jsdoc.conf.json'
+          configure: 'documentation/jsdoc.conf.json',
+          tutorials: 'documentation/tutorials'
         }
       }
     },

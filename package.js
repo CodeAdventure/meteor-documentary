@@ -1,3 +1,3 @@
 Package.describe({
-  summary: 'Beautiful JSDoc template for your Meteor packages.'
+  summary: 'Beautiful code documentation for your Meteor projects.'
 });

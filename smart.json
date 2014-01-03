@@ -1,9 +1,9 @@
 {
-  "name": "jsdoc-template",
-  "description": "Beautiful JSDoc template for your Meteor packages.",
-  "homepage": "https://github.com/CodeAdventure/meteor-jsdoc-template",
+  "name": "documentary",
+  "description": "Beautiful code documentation for your Meteor projects.",
+  "homepage": "https://github.com/CodeAdventure/meteor-documentary",
   "author": "Code Adventure",
-  "version": "0.1.1",
-  "git": "https://github.com/CodeAdventure/meteor-jsdoc-template.git",
+  "version": "0.1.2",
+  "git": "https://github.com/CodeAdventure/meteor-documentary.git",
   "packages": {}
 }
