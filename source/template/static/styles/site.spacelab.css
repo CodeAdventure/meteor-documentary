@@ -5755,8 +5755,8 @@ code {
   margin-top: -56px;
 }
 .member-collapsed {
-  background-color: #6c737e;
-  color: #cccccc;
+  background-color: #DDD;
+  color: #666;
 }
 .member-open {
   background-color: inherit;
