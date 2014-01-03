@@ -7,7 +7,7 @@ Uses an improved [Docstrap](https://github.com/terryweiss/docstrap) template for
 or application code.
 
 ## Install with Meteorite
-Install with: `mrt add jsdoc-template`
+Install with: `mrt add documentary`
 
 This will download the package with the template and plugins into the 
 packages folder within your Meteor app. This package does not include
@@ -57,7 +57,7 @@ module.exports = function (grunt) {
         src: ['source/**/*.js', 'documentation/index.md'],
         options: {
           destination: 'documentation/output',
-          template: '../jsdoc-template/source/template',
+          template: '../documentary/source/template',
           configure: 'documentation/jsdoc.conf.json',
           tutorials: 'documentation/tutorials'
         }
